@@ -1,7 +1,6 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/portfolio-site/$1" }
-  ],
   "buildCommand": "cd portfolio-site && npm install && npm run build",
-  "outputDirectory": "portfolio-site/.next"
+  "outputDirectory": "portfolio-site/.next",
+  "framework": "nextjs",
+  "installCommand": "cd portfolio-site && npm install"
 } 
