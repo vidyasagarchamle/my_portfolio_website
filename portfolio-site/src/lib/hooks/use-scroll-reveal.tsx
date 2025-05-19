@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import { motion, useInView, useAnimation, type Variants } from "framer-motion"
 
 // Default animation variants
@@ -93,7 +93,9 @@ export function Reveal({
         visible: {
           ...variants.visible,
           transition: {
-            ...variants.visible?.transition,
+            ...(typeof variants.visible === 'object' && 'transition' in variants.visible 
+              ? variants.visible.transition 
+              : {}),
             delay,
             duration
           }
