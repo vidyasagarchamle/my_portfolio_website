@@ -12,18 +12,7 @@ import { Footer } from "@/components/footer"
 import { motion } from "framer-motion"
 
 export default function Home() {
-  // More subtle animations for a minimalist aesthetic
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: { 
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.15,
-        delayChildren: 0.2
-      }
-    }
-  };
-  
+  // Animation variants for sections
   const sectionVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { 

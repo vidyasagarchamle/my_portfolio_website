@@ -1,7 +1,6 @@
 import React from "react"
 import Link from "next/link"
-import { Github, Linkedin, Mail, Heart, ExternalLink } from "lucide-react"
-import { motion } from "framer-motion"
+import { Github, Linkedin, Mail, Heart } from "lucide-react"
 
 // SocialLink Component
 export function SocialLink({ 
@@ -34,7 +33,7 @@ export function Footer() {
       <div className="container mx-auto">
         <div className="flex justify-between flex-col md:flex-row">
           <div>
-            <h3 className="font-semibold text-xl text-foreground">Let's Build Something Impactful</h3>
+            <h3 className="font-semibold text-xl text-foreground">Let&apos;s Build Something Impactful</h3>
             <p className="text-muted-foreground">Open to new opportunities and collaborations.</p>
           </div>
           
