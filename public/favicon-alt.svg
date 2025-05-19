@@ -1,0 +1,23 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <circle cx="32" cy="32" r="29" fill="url(#paint0_linear)" />
+  
+  <!-- Border circle with gradient -->
+  <circle cx="32" cy="32" r="30" stroke="url(#paint1_linear)" stroke-width="2" fill="none" />
+  
+  <!-- VC letters as paths -->
+  <path d="M26.0625 40.2344C25.5312 41.625 24.1719 42.4844 22.3594 42.4844C19.3438 42.4844 17.3906 40.1094 17.3906 36.2656C17.3906 32.4375 19.3438 30.0469 22.3594 30.0469C24.1562 30.0469 25.5312 30.9219 26.0625 32.3125L28.5312 31.3125C27.6094 28.8906 25.1562 27.5625 22.3594 27.5625C17.9062 27.5625 14.6094 31.0781 14.6094 36.2656C14.6094 41.4688 17.9062 45 22.3594 45C25.1562 45 27.6094 43.6562 28.5312 41.2344L26.0625 40.2344Z" fill="white"/>
+  <path d="M47.8359 28.0625H45.0078L38.5938 42.8438L32.1797 28.0625H29.3516L37.0703 45.7031H40.1172L47.8359 28.0625Z" fill="white"/>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9C27B0" />
+      <stop offset="100%" stop-color="#6A1B9A" />
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#CE93D8" />
+      <stop offset="100%" stop-color="#9C27B0" />
+    </linearGradient>
+  </defs>
+</svg> 

@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background square with gradient -->
+  <rect width="64" height="64" rx="12" fill="url(#paint0_linear)" />
+  
+  <!-- VC text -->
+  <g transform="translate(10, 5)">
+    <path d="M16.0625 35.2344C15.5312 36.625 14.1719 37.4844 12.3594 37.4844C9.34375 37.4844 7.39062 35.1094 7.39062 31.2656C7.39062 27.4375 9.34375 25.0469 12.3594 25.0469C14.1562 25.0469 15.5312 25.9219 16.0625 27.3125L18.5312 26.3125C17.6094 23.8906 15.1562 22.5625 12.3594 22.5625C7.90625 22.5625 4.60938 26.0781 4.60938 31.2656C4.60938 36.4688 7.90625 40 12.3594 40C15.1562 40 17.6094 38.6562 18.5312 36.2344L16.0625 35.2344Z" fill="white"/>
+    <path d="M37.8359 23.0625H35.0078L28.5938 37.8438L22.1797 23.0625H19.3516L27.0703 40.7031H30.1172L37.8359 23.0625Z" fill="white"/>
+  </g>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9C27B0" />
+      <stop offset="100%" stop-color="#6A1B9A" />
+    </linearGradient>
+  </defs>
+</svg> 
