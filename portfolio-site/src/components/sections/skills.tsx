@@ -2,10 +2,9 @@
 
 import React from "react"
 import { motion } from "framer-motion"
-import { BarChart, Brain, Code, Bot, Compass, Globe, PenTool } from "lucide-react"
+import { BarChart, Brain, Bot, Compass, Globe, PenTool } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { cn } from "@/lib/utils"
 
 type SkillCategory = {
   id: string

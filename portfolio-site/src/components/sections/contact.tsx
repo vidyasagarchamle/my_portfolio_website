@@ -2,18 +2,18 @@
 
 import React from "react"
 import { motion } from "framer-motion"
-import { Mail, MessageSquare, Send } from "lucide-react"
+import { Mail, Send } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { useForm } from "react-hook-form"
 
 export function Contact() {
-  const { register, handleSubmit, formState, reset } = useForm()
+  const { register, handleSubmit, reset } = useForm()
   const [isSubmitting, setIsSubmitting] = React.useState(false)
   const [isSubmitted, setIsSubmitted] = React.useState(false)
 
-  const onSubmit = async (data: any) => {
+  const onSubmit = async (data: Record<string, string>) => {
     setIsSubmitting(true)
     // In a real application, you would send the form data to your backend
     await new Promise((resolve) => setTimeout(resolve, 1500))
@@ -56,7 +56,7 @@ export function Contact() {
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">Get In Touch</h2>
           <div className="mx-auto h-1 w-20 bg-primary" />
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-            Interested in working together? Send me a message and I'll get back to you as soon as possible.
+            Interested in working together? Send me a message and I&apos;ll get back to you as soon as possible.
           </p>
         </motion.div>
 

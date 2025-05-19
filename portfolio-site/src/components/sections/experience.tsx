@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Badge } from "@/components/ui/badge"
-import { Briefcase, Building2, Calendar, ChevronRight, ArrowUpRight, Sparkles, Award } from "lucide-react"
+import { Briefcase, Building2, ChevronRight, ArrowUpRight, Sparkles } from "lucide-react"
 
 // Company experiences data with proper company names and roles
 const experiences = [
@@ -94,7 +94,7 @@ export function Experience() {
               Professional Background
             </div>
             <h2 className="text-4xl font-bold md:text-5xl text-balance mb-5">
-              Where I've <span className="bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">Made Impact</span>
+              Where I&apos;ve <span className="bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">Made Impact</span>
             </h2>
             <p className="text-foreground/70 max-w-2xl mx-auto">
               A showcase of my product management journey across Web3 gaming, sports platforms, and retail technologies.
