@@ -3,7 +3,7 @@
 import React from "react"
 import { motion } from "framer-motion"
 import Link from "next/link"
-import { ExternalLink, ArrowUpRight, Bookmark, Lightbulb, Target, BarChart3, Users, Zap, Eye, Layers, MessageCircle, LineChart, FileDown } from "lucide-react"
+import { ArrowUpRight, Bookmark, Lightbulb, Target, BarChart3, Users, Zap, MessageCircle, LineChart, FileDown } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 type ColorVariant = 'purple' | 'blue' | 'green' | 'orange' | 'pink';

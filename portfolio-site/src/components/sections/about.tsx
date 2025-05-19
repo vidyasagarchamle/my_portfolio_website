@@ -1,10 +1,9 @@
 "use client"
 
 import React from "react"
-import { motion, HTMLMotionProps } from "framer-motion"
+import { motion } from "framer-motion"
 import { Github, Linkedin, Mail } from "lucide-react"
 import Link from "next/link"
-import { cn } from "@/lib/utils"
 
 const MotionDiv = motion.div
 const MotionH2 = motion.h2
@@ -52,7 +51,7 @@ export function About() {
               viewport={{ once: true }}
               className="text-lg leading-relaxed text-foreground/80"
             >
-              Hello, I'm Vidyasagar, a product manager with a curious mind, a builder's instinct, and a soft spot for philosophy and cinema.
+              Hello, I&apos;m Vidyasagar, a product manager with a curious mind, a builder&apos;s instinct, and a soft spot for philosophy and cinema.
             </MotionP>
             
             <MotionP
@@ -62,7 +61,7 @@ export function About() {
               viewport={{ once: true }}
               className="text-lg leading-relaxed text-foreground/80"
             >
-              My journey into product began with an obsession for how things work, not just in tech, but in people, systems, and stories. Over the past few years, I've worked at the intersection of Web3, consumer apps, and emerging technologies, bringing clarity to chaos and shaping digital experiences that are as thoughtful as they are scalable.
+              My journey into product began with an obsession for how things work, not just in tech, but in people, systems, and stories. Over the past few years, I&apos;ve worked at the intersection of Web3, consumer apps, and emerging technologies, bringing clarity to chaos and shaping digital experiences that are as thoughtful as they are scalable.
             </MotionP>
             
             <MotionP
@@ -72,7 +71,7 @@ export function About() {
               viewport={{ once: true }}
               className="text-lg leading-relaxed text-foreground/80"
             >
-              Whether I'm writing a PRD, jamming with designers, or decoding user behavior at 2AM, I bring an obsessive attention to detail and a deep desire to solve meaningful problems.
+              Whether I&apos;m writing a PRD, jamming with designers, or decoding user behavior at 2AM, I bring an obsessive attention to detail and a deep desire to solve meaningful problems.
             </MotionP>
 
             <MotionP
@@ -82,7 +81,7 @@ export function About() {
               viewport={{ once: true }}
               className="text-lg leading-relaxed text-foreground/80"
             >
-              Outside of work, you'll find me diving into existential reads, rewatching Nolan's films, or chasing the next big idea over coffee-fueled midnight notes.
+              Outside of work, you&apos;ll find me diving into existential reads, rewatching Nolan&apos;s films, or chasing the next big idea over coffee-fueled midnight notes.
             </MotionP>
 
             <MotionP
@@ -92,7 +91,7 @@ export function About() {
               viewport={{ once: true }}
               className="text-lg leading-relaxed text-foreground/80 font-medium"
             >
-              Let's build something that actually matters.
+              Let&apos;s build something that actually matters.
             </MotionP>
             
             {/* Ultra-minimal social links */}

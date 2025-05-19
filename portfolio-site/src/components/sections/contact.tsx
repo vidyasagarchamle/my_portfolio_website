@@ -13,7 +13,7 @@ export function Contact() {
   const [isSubmitting, setIsSubmitting] = React.useState(false)
   const [isSubmitted, setIsSubmitted] = React.useState(false)
 
-  const onSubmit = async (data: Record<string, string>) => {
+  const onSubmit = async () => {
     setIsSubmitting(true)
     // In a real application, you would send the form data to your backend
     await new Promise((resolve) => setTimeout(resolve, 1500))
