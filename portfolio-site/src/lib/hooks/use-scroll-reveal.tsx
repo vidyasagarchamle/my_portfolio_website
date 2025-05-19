@@ -62,7 +62,7 @@ export function useScrollReveal() {
     }
   }, [controls, isInView])
 
-  return { ref, controls, isInView }
+  return { ref, controls }
 }
 
 // Component for scroll reveal animations
@@ -83,7 +83,7 @@ export function Reveal({
   duration = 0.5,
   as = motion.div 
 }: RevealProps) {
-  const { ref, controls, isInView } = useScrollReveal()
+  const { ref, controls } = useScrollReveal()
   const Component = as
 
   // Customize the animation if delay or duration are provided
@@ -128,7 +128,7 @@ export function StaggerReveal({
   childVariants = fadeIn,
   staggerDelay = 0.1
 }: StaggerRevealProps) {
-  const { ref, controls, isInView } = useScrollReveal()
+  const { ref, controls } = useScrollReveal()
 
   const parentVariants = {
     hidden: { opacity: 0 },

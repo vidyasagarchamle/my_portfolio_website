@@ -2,7 +2,7 @@
 
 import React from "react"
 import { motion } from "framer-motion"
-import { BarChart, Brain, Code, Database, LayoutDashboard, LineChart, MessageSquare, PenTool, SearchCheck, Users2, Cpu, Bot, Compass, Globe, Wrench, Zap, Sparkles } from "lucide-react"
+import { BarChart, Brain, Code, Bot, Compass, Globe, PenTool } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { cn } from "@/lib/utils"
@@ -123,25 +123,6 @@ const skillCategories: SkillCategory[] = [
     ],
   },
 ]
-
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.05,
-    },
-  },
-}
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 10 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.3 },
-  },
-}
 
 export function Skills() {
   return (

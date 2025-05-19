@@ -115,7 +115,8 @@ export function ScrollReveal({
   const ref = React.useRef<HTMLDivElement>(null)
   
   useEffect(() => {
-    if (!ref.current) return
+    const currentRef = ref.current
+    if (!currentRef) return
     
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -129,12 +130,10 @@ export function ScrollReveal({
       { threshold }
     )
     
-    observer.observe(ref.current)
+    observer.observe(currentRef)
     
     return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current)
-      }
+      observer.unobserve(currentRef)
     }
   }, [threshold, delay])
   
